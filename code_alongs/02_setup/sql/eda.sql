@@ -42,3 +42,12 @@ SELECT
   MAX(längd)
 FROM
   video;
+
+-- with alias 
+SELECT
+  MIN(längd) AS shortest,
+  AVG(längd) AS average,
+  MEDIAN(längd) AS median,
+  MAX(längd) AS longest
+FROM
+  video;
