@@ -17,3 +17,14 @@ SELECT
   visningar
 FROM 
   video;
+
+
+-----
+
+SELECT
+  innehåll,
+  videotitel,
+  visningar
+FROM 
+  video
+OFFSET 1; -- skips first row
