@@ -31,3 +31,5 @@ OFFSET 1; -- skips first row
 
 -- select first row 
 SELECT * FROM video WHERE innehåll = 'Totalt';
+
+DELETE FROM video WHERE innehåll = 'Totalt';
