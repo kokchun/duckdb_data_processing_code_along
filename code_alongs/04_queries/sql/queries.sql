@@ -18,3 +18,5 @@ SELECT
 FROM
   jobs
 ORDER BY annual_salary_usd DESC;
+
+SELECT DISTINCT education_required FROM jobs;
