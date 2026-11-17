@@ -33,3 +33,12 @@ OFFSET 1; -- skips first row
 SELECT * FROM video WHERE innehåll = 'Totalt';
 
 DELETE FROM video WHERE innehåll = 'Totalt';
+
+-- get stats
+SELECT
+  MIN(längd),
+  AVG(längd),
+  MEDIAN(längd),
+  MAX(längd)
+FROM
+  video;
