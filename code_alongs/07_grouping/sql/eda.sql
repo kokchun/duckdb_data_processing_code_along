@@ -33,4 +33,4 @@ FROM
     food
 ORDER BY week_id;
 
-SELECT * FROM food WHERE week_id BETWEEN '2016-38' AND '2016-42'
+SELECT * FROM food WHERE week_id BETWEEN '2016-38' AND '2016-42';
