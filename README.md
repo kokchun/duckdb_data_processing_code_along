@@ -17,4 +17,10 @@ kill -9 PID
 # start a new terminal
 ```
 
+## DuckDB CLI 
+
+Open up duckdb cli and then you can do these commands 
+```bash
+.read # to read a file  
+```
 
