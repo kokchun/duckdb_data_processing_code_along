@@ -2,7 +2,7 @@
 INSERT
 	INTO
 	databases.sql (word,
-	description)
+	meaning)
 VALUES 
 ('DuckDB',
 'An in-process SQL OLAP database management system designed for fast analytical queries.'),
