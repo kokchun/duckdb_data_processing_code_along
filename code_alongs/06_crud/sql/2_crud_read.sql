@@ -15,3 +15,11 @@ FROM programming.python;
 SELECT
   * EXCLUDE id
 FROM databases.vectordb;
+
+-- after updating
+SELECT
+  word
+FROM
+  databases.sql
+WHERE
+  NOT learnt;
