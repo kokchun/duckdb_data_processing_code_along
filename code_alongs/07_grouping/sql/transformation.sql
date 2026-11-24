@@ -11,3 +11,12 @@ split week_id to
 persist into a new table called cleaned_food
 
  */
+CREATE TABLE IF NOT EXISTS cleaned_food AS (
+    SELECT
+        id AS food,
+        week_id,
+        week_id[:4] AS year,
+        split_part(week_id, '-', 2) AS week,
+        value AS number_searches
+    FROM food
+);
