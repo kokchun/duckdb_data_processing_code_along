@@ -8,7 +8,7 @@ When modifying the database it will create a .wal file (write-ahead-log). If you
 
 ```bash
 # find the PID for your duckdb process
-ps 
+ps -a
 
 # kill it
 kill -9 PID
